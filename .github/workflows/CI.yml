@@ -20,12 +20,12 @@ jobs:
           pip install pytest scipy numpy pin pyyaml
 
       - name: Run Tests Notch
-        run: pytest cari_control_libs_pytest/test_notch_filter.py
+        run: pytest cari_pytest/test_notch_filter.py
       - name: Run Tests FIR
-        run: pytest cari_control_libs_pytest/test_fir_filter.py
+        run: pytest cari_pytest/test_fir_filter.py
       - name: Run Tests LP
-        run: pytest cari_control_libs_pytest/test_low_pass_filter.py
+        run: pytest cari_pytest/test_low_pass_filter.py
       - name: Run Delay
-        run: pytest cari_control_libs_pytest/test_delay.py
+        run: pytest cari_pytest/test_delay.py
       - name: Run PID
-        run: pytest cari_control_libs_pytest/test_pid_controller.py
+        run: pytest cari_pytest/test_pid_controller.py

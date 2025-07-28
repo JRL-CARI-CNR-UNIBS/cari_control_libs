@@ -1,4 +1,4 @@
-from labauto import BaseController
+from cari_control_libs import BaseController
 import numpy as np
 
 
