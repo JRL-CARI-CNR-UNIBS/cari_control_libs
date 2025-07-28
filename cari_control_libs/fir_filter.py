@@ -1,5 +1,5 @@
 import numpy as np
-from labauto import BaseFilter
+from cari_control_libs import BaseFilter
 
 class FIRFilter(BaseFilter):
     """

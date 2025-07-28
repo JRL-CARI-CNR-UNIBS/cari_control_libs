@@ -1,5 +1,5 @@
 import numpy as np
-from labauto import MotionLaw
+from cari_control_libs import MotionLaw
 
 class TrapezoidalMotionLaw(MotionLaw):
     def __init__(self, max_Dy, max_DDy, Tc):

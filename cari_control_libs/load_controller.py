@@ -1,10 +1,10 @@
 import numpy as np
-from labauto import DecentralizedController
-from labauto import CascadeController
-from labauto import PIDController
-from labauto import FirstOrderLowPassFilter
-from labauto import NotchFilter
-from labauto import FIRFilter
+from cari_control_libs import DecentralizedController
+from cari_control_libs import CascadeController
+from cari_control_libs import PIDController
+from cari_control_libs import FirstOrderLowPassFilter
+from cari_control_libs import NotchFilter
+from cari_control_libs import FIRFilter
 import pinocchio as pin
 from functools import partial
 

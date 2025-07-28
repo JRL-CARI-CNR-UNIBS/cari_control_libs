@@ -1,5 +1,5 @@
 import math
-from labauto import BaseFilter
+from cari_control_libs import BaseFilter
 
 class FirstOrderLowPassFilter(BaseFilter):
     """

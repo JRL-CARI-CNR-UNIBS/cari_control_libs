@@ -1,6 +1,6 @@
 import numpy as np
 from scipy.signal import bilinear
-from labauto import BaseFilter
+from cari_control_libs import BaseFilter
 
 
 class NotchFilter(BaseFilter):
