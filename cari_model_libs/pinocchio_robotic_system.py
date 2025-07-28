@@ -1,7 +1,7 @@
 import numpy as np
 import pinocchio as pin
 import yaml
-from cari_control_libs import MechanicalSystem  # Import the base class
+from cari_model_libs import MechanicalSystem  # Import the base class
 
 class PinocchioRoboticSystem(MechanicalSystem):
     def __init__(self, st, model_name):

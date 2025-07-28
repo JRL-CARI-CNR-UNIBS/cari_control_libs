@@ -1,4 +1,4 @@
-from labauto import FirstOrderLowPassFilter
+from cari_control_libs import FirstOrderLowPassFilter
 import numpy as np
 import pytest
 from scipy.signal import TransferFunction, cont2discrete, dlti, dstep
