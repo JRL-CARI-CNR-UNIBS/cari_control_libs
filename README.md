@@ -5,7 +5,7 @@ Developed by [CARI JRL](https://cari.unibs.it/).
 
 ## Build Status
 
-![CI Test](https://github.com/JRL-CARI-CNR-UNIBS/cari_control_libs/actions/workflows/ci.yml/badge.svg?branch=master)
+![CI Test](https://github.com/JRL-CARI-CNR-UNIBS/cari_control_libs/actions/workflows/CI.yml/badge.svg?branch=master)
 
 
 ## Table of Contents
