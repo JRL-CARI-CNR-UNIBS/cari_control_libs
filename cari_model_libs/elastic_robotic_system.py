@@ -3,10 +3,10 @@ import pinocchio as pin
 import yaml
 from cari_model_libs import MechanicalSystem  # Import the base class
 
-class PinocchioRoboticSystem(MechanicalSystem):
+class ElasticRoboticSystem(MechanicalSystem):
     def __init__(self, st, model_name):
         """
-        Initialize the Pinocchio-based robotic system with a given sampling period and model.
+        Initialize the elastic robotic system with a given sampling period and model.
         """
         super().__init__(st)  # Call parent constructor
         
